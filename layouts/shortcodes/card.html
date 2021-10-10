@@ -1,0 +1,71 @@
+{{- $size := .Get "size" | default "32" -}}
+{{- $lvl := .Get "level" -}}
+{{- $lvl1 := gt $lvl 19 -}}
+{{- $lvl2 := gt $lvl 39 -}}
+{{- $lvl3 := gt $lvl 59 -}}
+{{- $lvl4 := gt $lvl 79 -}}
+{{- $lvl5 := gt $lvl 99 -}}
+
+<!-- <div class="col-sm" style="padding-top: 1rem;">
+  <div class="card" style="height:100%">
+    <div class="card-head d-flex">
+      <img src="{{ .Get "icon" }}" width="{{ $size }}px" height="{{ $size }}px">
+      <span class="card-xtitle">{{.Get "title"}}</span>
+    </div>
+    <hr>
+    <div class="card-body">
+      <p class="card-text" style="word-break: keep-all;hyphens: none !important;text-align: center;">
+        {{.Inner}}
+      </p>
+    </div>
+  </div>  
+</div> -->
+
+
+<div class="col-sm" style="padding-top: 1rem;">
+  <div class="card" style="height:100%">
+    <div class="card-head d-flex">
+      <div class="row" style="width: 100%">
+        <div class="col-sm-8">
+          <img src="{{ .Get "icon" }}" width="{{ $size }}px" height="{{ $size }}px">
+          <span class="card-xtitle">{{.Get "title"}}</span>
+        </div>
+        <div class="col-sm-4" style="color: grey; font-size: 1.6rem; margin-top: 5px;">
+          <div class="pull-right">
+            {{ if $lvl1 }}
+              <span class="fa fa-star star-checked"></span>
+            {{ else }}
+              <span class="fa fa-star"></span>
+            {{ end }}
+            {{ if $lvl2 }}
+              <span class="fa fa-star star-checked"></span>
+            {{ else }}
+              <span class="fa fa-star"></span>
+            {{ end }}
+            {{ if $lvl3 }}
+              <span class="fa fa-star star-checked"></span>
+            {{ else }}
+              <span class="fa fa-star"></span>
+            {{ end }}
+            {{ if $lvl4 }}
+              <span class="fa fa-star star-checked"></span>
+            {{ else }}
+              <span class="fa fa-star"></span>
+            {{ end }}
+            {{ if $lvl5 }}
+              <span class="fa fa-star star-checked"></span>
+            {{ else }}
+              <span class="fa fa-star"></span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="card-body">
+      <p class="card-text" style="word-break: keep-all;hyphens: none !important;text-align: center;">
+        {{.Inner}}
+      </p>
+    </div>
+  </div>  
+</div>

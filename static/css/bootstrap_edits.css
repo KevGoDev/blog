@@ -1,0 +1,15 @@
+div, p, li, a{
+	font-size: 1.8rem !important;
+} 
+.card-head{
+	padding: 10px;
+}
+.card-xtitle{
+	margin-left: 15px;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	vertical-align: middle;
+}
+.star-checked {
+  color: #22ab00 !important;
+}
