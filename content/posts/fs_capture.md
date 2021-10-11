@@ -268,7 +268,7 @@ I added my project's directory to Defender's exclusions.
 
 # Writting the process helper
 The process helper is trivial to build, we simply get the address of LoadLibraryA and return it. 
-Since the applicatiion is 32-bit that address will be for the WOW64 subsystem.
+Since the application is 32-bit that address will be for the WOW64 subsystem.
 
 ```cpp
 #include <cstdio>
@@ -285,7 +285,7 @@ int main(int argc, char** argv){
 
 
 # Testing the injector
-We can now test the injector on any applications that is 64-bit. I will take notepad.exe as an example.
+We can now test the injector on any applications that is 64-bit. I will take notepad.exe as ~~a victim~~ an example.
 
 We run the injector and specify Notepad.exe as the target process. 
 We then open WinDbg, in my case I'll use [DebugView++](https://github.com/CobaltFusion/DebugViewPP) which 
