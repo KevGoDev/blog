@@ -9,6 +9,8 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 
+
+
 [params]
 author = "Kevin Goyette"
 description = "Kevin Goyette's personal website"
