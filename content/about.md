@@ -47,6 +47,35 @@ My name is Kevin Goyette and I'm currently studying at [École de technologie su
 {{< /rawhtml >}}
 
 
+# Éducation
+{{< rawhtml >}}
+<div class="row" style="padding-top: 0.5rem;">
+    <div class="container" style="width: 90%;">
+        <div class="row" style="padding:  0.5rem;">
+            <div class="col-sm-10">
+                <h3>Bachelor degree in software engineering</h3>
+                École de technologie supérieure
+            </div>
+            <div class="col-sm-2">
+                In progress
+            </div>
+        </div>   
+        <div class="row" style="padding:  0.5rem;">
+            <div class="col-sm-10">
+                <h3>DEC in programming</h3>
+                Collège de Rosemont
+            </div>
+            <div class="col-sm-2">
+                Graduated in 2017
+            </div>
+        </div>        
+    </div>
+</div>
+{{< /rawhtml >}}
+
+ 
+
+
 
 # Skills
 {{< rawhtml >}}
@@ -59,7 +88,7 @@ My name is Kevin Goyette and I'm currently studying at [École de technologie su
             {{< skillcard icon="/images/logo_cpp.png" title="C/C++" level="90">}}
                 I wrote a kernel-mode driver, exploits and an API monitor for filesystem access. I mainly have experience in C however.
             {{< /skillcard >}}
-            {{< skillcard icon="/images/logo_asm.png" title="Assembly" level="100">}}
+            {{< skillcard icon="/images/logo_asm.png" title="Assembly" level="90">}}
                 I learned assembly mainly through reverse engineering malwares and Capture The Flag events(computer security competitions).
             {{< /skillcard >}}
             {{< rawhtml >}}

@@ -25,7 +25,7 @@ I developped a windows filesystem API monitor that is able to trace any access t
 I originally built this application to find where an application was extracting its files. 
 The application is written in C and uses [function hooks](https://en.wikipedia.org/wiki/Hooking) in order to achieve its goal. 
 
-[I wrote a post about this project.](/posts/fs_capture/)
+[I wrote an in-depth post about this project.](/posts/fs_capture/)
 
 
 
@@ -36,11 +36,6 @@ The application is written in C and uses [function hooks](https://en.wikipedia.o
 I'm currently working on a screen capture application that let's you upload 
 it to my server or as a self-hosted service. 
 
-[I wrote a post about this project.](/posts/screen_capture/)
 
 
-<!-- {{< rawhtml >}}
-<div style="margin-top: 7rem;"></div>
-{{< /rawhtml >}}
-## Current project -->
 

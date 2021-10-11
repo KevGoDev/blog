@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://kevgo.dev/"
 title = "KevGoDev"
 theme = "hugo-coder"
 languageCode = "en"
@@ -17,9 +17,11 @@ description = "Kevin Goyette's personal website"
 keywords = "blog,developer,personal"
 info = ["Software engineering student"]
 avatarURL = "images/avatar.jpg"
+email = "KevGoDev@gmail.com"
 #gravatar = "john.doe@example.com"
 footerContent = ""
-dateFormat = "January 2, 2006"
+# dateFormat = "January 2, 2006"
+# dateFormat = "January 2006"
 hideFooter = true
 hideCredits = false
 hideCopyright = true
@@ -107,12 +109,6 @@ weight = 1
 url = "https://github.com/kevgodev/"
 
 # [[params.social]]
-# name = "Twitter"
-# icon = "fa fa-twitter"
-# weight = 2
-# url = "https://twitter.com/johndoe/"
-
-# [[params.social]]
 # name = "LinkedIn"
 # icon = "fa fa-linkedin"
 # weight = 3
@@ -147,7 +143,7 @@ url = "projects/"
 [[languages.en.menu.main]]
 name = "Contact me"
 weight = 4
-url = "contact/"
+url = "/"
 
 
 
@@ -181,4 +177,4 @@ url = "projects/"
 [[languages.fr-ca.menu.main]]
 name = "Me contacter"
 weight = 4
-url = "contact/"
+url = "/"
