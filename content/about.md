@@ -27,7 +27,7 @@ My name is Kevin Goyette and I'm currently studying at [École de technologie su
         <div class="row">
             <div class="col-sm-10">
                 <h3>Discount Car & Truck Rentals</h3>
-                Analyst programmer
+                Programmer analyst
                 <ul>
                     <li>I mainly worked in web development. I built different web apps for employees.</li>
                     <li>I also built backend apps in Python and Coldfusion that would fetch data from documents and APIs and store them in remote databases.</li>
