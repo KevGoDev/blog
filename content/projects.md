@@ -21,7 +21,7 @@ aliases = ["projects"]
 <div style="margin-top: 7rem;"></div>
 {{< /rawhtml >}}
 ## Filesystem API Monitor
-I developped a windows filesystem API monitor that is able to trace any access to any files on the system including [named pipes](https://docs.microsoft.com/en-us/windows/win32/ipc/named-pipes).
+I developed a windows filesystem API monitor that is able to trace any access to any files on the system including [named pipes](https://docs.microsoft.com/en-us/windows/win32/ipc/named-pipes).
 I originally built this application to find where an application was extracting its files. 
 The application is written in C and uses [function hooks](https://en.wikipedia.org/wiki/Hooking) in order to achieve its goal. 
 
